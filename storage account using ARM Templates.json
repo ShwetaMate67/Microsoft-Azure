@@ -1,0 +1,46 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "Storage",
+    "id": "/subscriptions/2426555f-aab3-4092-acd0-0a14fea0df56/resourceGroups/azureResourceGroup/providers/Microsoft.Storage/storageAccounts/blobe7ebidemfsl76",
+    "name": "blobe7ebidemfsl76",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "centralus",
+    "tags": {
+        "displayName": "Blob"
+    },
+    "properties": {
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": false,
+        "encryption": {
+            "services": {
+                "file": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-08-31T08:54:07.7451345Z"
+                },
+                "blob": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-08-31T08:54:07.7451345Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "provisioningState": "Succeeded",
+        "creationTime": "2022-08-31T08:54:07.6357315Z",
+        "primaryEndpoints": {
+            "blob": "https://blobe7ebidemfsl76.blob.core.windows.net/",
+            "queue": "https://blobe7ebidemfsl76.queue.core.windows.net/",
+            "table": "https://blobe7ebidemfsl76.table.core.windows.net/",
+            "file": "https://blobe7ebidemfsl76.file.core.windows.net/"
+        },
+        "primaryLocation": "centralus",
+        "statusOfPrimary": "available"
+    }
+}
